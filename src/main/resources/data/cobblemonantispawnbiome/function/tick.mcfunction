@@ -1,0 +1,1 @@
+execute as @a at @s if predicate cobblemonantispawnbiome:in_spawn_biome run effect give @s speed 4 1 true
