@@ -7,8 +7,10 @@ version = project.mod_version
 group = project.maven_group
 
 repositories {
-	maven { url = "https://maven.impactdev.net/repository/development/" } // Cobblemon official maven
-	maven { url = "https://terraformersmc.com" }        // Required library dependencies
+	maven { url = "https://impactdev.net" } // Cobblemon
+	maven { url = "https://terraformersmc.com" }        // Required dependencies
+	maven { url = "https://cursemaven.com" }            // Required for CurseForge lookups
+	mavenCentral()
 }
 
 loom {
@@ -35,10 +37,11 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
-	// Pulls down core Cobblemon framework
-	modImplementation files("libs/Cobblemon-fabric-1.7.2+1.21.1.jar")
+	// Core Cobblemon Framework
+	modImplementation "com.cobblemon:fabric:1.7.2+1.21.1"
 
-	modImplementation files("libs/cobblemonalphasFabric-1.3+1.7.0.jar")
+	// Cobblemon Alpha Project (Matches file ID 7264330)
+	modImplementation "curse.maven:cobblemon-alpha-project-1203085:7264330"
 }
 
 
