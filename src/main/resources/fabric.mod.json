@@ -38,6 +38,6 @@
 		"java": ">=21",
 		"fabric-api": "*",
 		"cobblemon": ">=1.7.2",
-		"cobblemon-alphas": "*"
+		"cobblemonalphas": "*"
 	}
 }
