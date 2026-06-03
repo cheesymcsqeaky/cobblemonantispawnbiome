@@ -6,7 +6,7 @@ An addon mod specifically built for Minecraft **1.21.1** (Fabric) to manage wild
 This mod introduces a dedicated safe-zone biome designed to have **zero** natural Pokémon spawns (including vanilla mobs and any other entity types unless forced by commands). It provides a peaceful region for server hubs, custom player towns, or community build projects without the clutter of wild entities.
 
 ## ⛔ Dependencies & Requirements
-This mod **requires** the following dependencies to function. It will prevent the game from booting if they are missing, ensuring that custom spawn logic does not crash your environment:
+This mod **requires** the following dependencies to function properly:
 
 * **Minecraft:** `1.21.1`
 * **Fabric Loader:** `0.15.0` or higher
@@ -18,5 +18,8 @@ By default, external side-mods like *Cobblemon Alpha Project* utilize secondary 
 
 To ensure Alphas do not bypass these restrictions, this mod works directly with an aggressive global **Filter Rule** within Cobblemon Alpha Project's logic system to completely suppress unauthorized entity injections.
 
-## ⚙️ Setup
-For setup instructions and IDE configuration, please refer to the official [Fabric Documentation page](https://fabricmc.net) related to the environment you are using. Ensure you define `cobblemon-alpha-project` inside your `fabric.mod.json` file's `"depends"` block.
+## ⚙️ Installation
+No extra configuration or setup is required. Users simply need to download this mod along with **Cobblemon Alpha Project** and drop both files into the `mods` folder. 
+
+* **For Multiplayer:** Must be installed on both the **Server** and the **Client**.
+* **For Singleplayer:** Install directly into your client profile.
