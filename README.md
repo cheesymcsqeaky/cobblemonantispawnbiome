@@ -3,7 +3,7 @@
 An addon mod specifically built for our server to manage wild encounters alongside the **Cobblemon Alpha Project** mod.
 
 ## 🌟 Overview
-This mod introduces a dedicated safe-zone biome designed to have **zero** natural Pokémon spawns. It provides a peaceful region for building, server hubs, or custom player towns without wild entity clutter. 
+This mod introduces a dedicated safe-zone biome designed to have **zero** natural Pokémon spawns (and including vanilla mobs, any mobs unless cases of bypassing such as cmds.). It provides a peaceful region for building, server hubs, or custom player towns without wild entity clutter. 
 
 ## 🛠️ Important Configuration Fixes
 By default, some external side-mods like *Cobblemon Alpha Project* utilize secondary injection methods or custom spawn logic that can accidentally bypass standard biome spawn-pool exclusions. 
