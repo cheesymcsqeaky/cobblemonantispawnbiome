@@ -21,5 +21,5 @@ To ensure Alphas do not bypass these restrictions, this mod works directly with 
 ## ⚙️ Installation
 No extra configuration or setup is required. Users simply need to download this mod along with **Cobblemon Alpha Project** and drop both files into the `mods` folder. 
 
-* **For Multiplayer:** Must be installed on both the **Server** and the **Client**.
+* **For Multiplayer:** Must be installed on only the **Server**.
 * **For Singleplayer:** Install directly into your client profile.
